@@ -186,23 +186,59 @@ function dup_atb_double(atbNum){
 //Change text
 function changeText(data) {
     for (i = 0; i < data.length; i++) {
-        var nameKorLayer = app.activeDocument.layers.getByName("nameKor"); 
-        nameKorLayer.textFrames[i].contents = data[i].nameKor;
+        //한글 이름
+        try {
+            var nameKorLayer = app.activeDocument.layers.getByName("nameKor"); 
+            nameKorLayer.textFrames[i].contents = data[i].nameKor;        
+        } catch (e) {}
 
-        var nameEngLayer = app.activeDocument.layers.getByName("nameEng");
-        nameEngLayer.textFrames[i].contents = data[i].nameEng;
-        
-        var jobLayer = app.activeDocument.layers.getByName("job");
-        jobLayer.textFrames[i].contents = data[i].job;
+        //영어 이름
+        try {
+            var nameEngLayer = app.activeDocument.layers.getByName("nameEng");
+            nameEngLayer.textFrames[i].contents = data[i].nameEng;
+        } catch (e) {}
 
-        var teamLayer = app.activeDocument.layers.getByName("team");
-        teamLayer.textFrames[i].contents = data[i].team;
+        //직무
+        try {
+            var jobLayer = app.activeDocument.layers.getByName("job");
+            jobLayer.textFrames[i].contents = data[i].job;        
+        } catch (e) {}
 
-        var mobileLayer = app.activeDocument.layers.getByName("mobile");
-        mobileLayer.textFrames[i].contents = data[i].mobile;
+        //직급
+        try {
+            var positionLayer = app.activeDocument.layers.getByName("position");
+            positionLayer.textFrames[i].contents = data[i].position;        
+        } catch (e) {}
 
-        var emailLayer = app.activeDocument.layers.getByName("email");
-        emailLayer.textFrames[i].contents = data[i].email;
+        //부서
+        try {
+            var teamLayer = app.activeDocument.layers.getByName("team");
+            teamLayer.textFrames[i].contents = data[i].team;    
+        } catch (e) {}
+
+        //핸드폰 번호
+        try {
+            var mobileLayer = app.activeDocument.layers.getByName("mobile");
+            mobileLayer.textFrames[i].contents = data[i].mobile;        
+        } catch (e) {}
+
+        //유선전화 번호
+        try {
+            var faxLayer = app.activeDocument.layers.getByName("fax");
+            faxLayer.textFrames[i].contents = data[i].fax;
+        } catch (e) {}
+
+        //이메일
+        try {
+            var emailLayer = app.activeDocument.layers.getByName("email");
+            emailLayer.textFrames[i].contents = data[i].email;      
+        } catch (e) {}
+
+        //팩스
+        try {
+            var faxLayer = app.activeDocument.layers.getByName("fax");
+            faxLayer.textFrames[i].contents = data[i].fax;
+        } catch (e) {}
     }
 }
 
@@ -221,39 +257,3 @@ function csvJSON(csv){
     //return result; //JavaScript object
     return JSON.stringify(result); //JSON
 }
-
-// try {
-//     nameKorLayer.textFrames[i].contents = obj[i].nameKor;
-// } catch (e) {
-//     nameKorLayer.textFrames[i].contents = "";
-// }
-
-
-// try { 
-//     var nameKorLayer = app.activeDocument.layers.getByName("nameKor"); 
-//     nameKorLayer.textFrames[i].contents = data[i].nameKor;
-// } finally {
-//     try {
-//         var nameEngLayer = app.activeDocument.layers.getByName("nameEng");
-//         nameEngLayer.textFrames[i].contents = data[i].nameEng;
-//     }
-    
-// }
-
-// var jobLayer = app.activeDocument.layers.getByName("job");
-// jobLayer.textFrames[i].contents = data[i].job;
-
-// var teamLayer = app.activeDocument.layers.getByName("team");
-// teamLayer.textFrames[i].contents = data[i].team;
-
-// var mobileLayer = app.activeDocument.layers.getByName("mobile");
-// mobileLayer.textFrames[i].contents = data[i].mobile;
-
-// var emailLayer = app.activeDocument.layers.getByName("email");
-// emailLayer.textFrames[i].contents = data[i].email;
-
-// var phoneLayer = app.activeDocument.layers.getByName("phone");
-// phoneLayer.textFrames[i].contents = data[i].phone;
-
-// var faxLayer = app.activeDocument.layers.getByName("fax");
-// faxLayer.textFrames[i].contents = data[i].fax;
