@@ -28,7 +28,7 @@ Adobe Illustrator Script for generating namecard automatically <br>
 
 <br>
 
-# 스크립트 사용 전 필수 작업
+# 스크립트 사용 전 필수 작업 (템플릿화 사전 작업)
 
 명함 제작 자동화 스크립트를 원활하게 사용하기 위해서는 기존에 디자인되어 있던 명함 파일을 템플릿화하는 사전 작업이 필요합니다.
 
