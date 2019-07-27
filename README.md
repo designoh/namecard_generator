@@ -1,5 +1,6 @@
 # namecard_generator
-![텍스트](https://media.giphy.com/media/UthZHv5g1lmlmrY8GG/giphy.gif)
+[![Video Label](https://media.giphy.com/media/UthZHv5g1lmlmrY8GG/giphy.gif)](https://www.youtube.com/watch?v=hr9y4xU9VAs)
+
 
 Adobe Illustrator Script for generating namecard automatically <br>
 **namecard_generator**는 어도비 일러스트레이터에서 사용할 수 있는 명함 제작 자동화 스크립트입니다.<br><br>
@@ -21,7 +22,7 @@ Adobe Illustrator Script for generating namecard automatically <br>
 
 스크립트가 정상적으로 실행되면 '정보가 성공적으로 입력되었습니다.'라는 얼럿이 뜨며, 'OK'를 누르면 정보 입력이 마무리됩니다. 
 
-입력되는 텍스트 길이에 따라 디자인이 터질 수 있으니, 스크립트 실행 이후에는 각 아트보드를 확인하면서 디자인 세부 조정이 필요한지 점검해보는 것을 권장합니다. 이후 폰트 깨기/내보내기 등 주문을 위해 필요한 후작업을 하시면 됩니다. 
+입력되는 텍스트 길이에 따라 디자인이 터질 수 있으니, 스크립트 실행 이후에는 각 아트보드를 확인하면서 디자인 세부 조정이 필요한지 점검하는 것을 권장합니다. 이후 폰트 깨기/내보내기 등 주문을 위해 필요한 후작업을 하시면 됩니다. 
 
 
 <br>
@@ -58,6 +59,8 @@ Adobe Illustrator Script for generating namecard automatically <br>
 로고, 시각 요소 등 바뀌지 않는 오브젝트들은 한 레이어에 따로 모으고, 다른 레이어와 헷갈리지 않게 'template', 'default' 등으로 적당히 레이어 이름을 바꿔두면 좋습니다.
 
 ### 2) 레이어 패널의 옵션에서 'Paste Remembers Layers' 체크
+'Paste Remembers Layers' 항목이 설정되어 있어야 스크립트가 정상적으로 실행됩니다.
+
 ### 3) 다른 이름으로 저장하여 템플릿 파일 따로 보관
 
 
