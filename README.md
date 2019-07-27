@@ -3,12 +3,12 @@
 
 
 Adobe Illustrator Script for generating namecard automatically <br>
-**namecard_generator**는 어도비 일러스트레이터에서 사용할 수 있는 명함 제작 자동화 스크립트입니다.<br><br>
+**namecard_generator**는 어도비 일러스트레이터에서 사용할 수 있는 명함 생성 자동화 스크립트입니다.<br><br>
 
 
 <br>
 
-# 스크립트 사용방법
+# namecard_generator 사용 방법
 [![Video Label](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d3442fe4-4032-4c4c-9db9-aac8343feac0/02_use_script.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45HXJFXPW7%2F20190727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190727T164042Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCi2PdEMOruPBkiQnKZS4y92Ll6rYxiYyyJjsretMcv6QIhANuRxzGAFPfB4inC3YJ4j2HPhK4kKGbNYhUn6H4dFe8UKtoDCEUQABoMMjc0NTY3MTQ5MzcwIgxIpGpg%2FoyCv4nYCC8qtwMBRT%2FGYqWit6OMoyq%2BcdSlMKEbn2AhUYASwHBmEOf4oO6dlEPt0DlO2cl21hlMt17MkLH45xBHo%2BalwvRlADGxSJISzrdAabPrOM7UOrvyzRJgZQTB5%2BIqhvZz1AKbksjlBlICw5tiEVoPEgGdL3%2Fv9scYySgpWhN6zC4j3kUsXR8KxuqbsANIQkNhS48aFv55aRjBjblABrnBa0I%2Bym6wnI%2FGdpi377PaS0L1MTRRk9I5qranofujmMJOjJiSpmbJmTsUtSakPU0NF1UuMAVuUV7fnVwbiSQVf3v%2BYq4JGeGxbWDiF2tcjKRP2Z87840ZQJo31bJVD9wnK91ZCSb1w7s4Bu0824qARpXQgEVm0co%2FJ0tf058h0jZOJnGGLaV7CLeLJ8xtWqiQfe4QXYIOdNONqwMHHMaLvw25xuftdf%2B1y%2BrmyNWk1%2BBVyPUomxl80Z3OdklzTT7UrqDoekvLNA5tixDfhjmK27739tTQdFLLi%2BHu4VZcpGtl6FEMMO%2BplUtWKxeX%2FOkBuTeOTTgy7GulnHQq8hlS%2B6JD07FwvkaxeQ2nia3pax2UGN4P2Y9IyZoOp%2BFXMJ738OkFOrMBjsSG8bsoY3iLKGdP6KVm6UVdKk0n6twFKuImDf7RySilRDNNIkVui2lxlnyiqKa7z6Gu69C5hsJxZuSFEiIn03RCAW%2BdlhiYNfjwuXlOD67BI3TYOQ4VnYOgajztsT7SzGfCknrw5uxvFUVa3GTR%2Ftr7odkarAgTH4uC%2FFYhU6LYsmolMgGdYNrjfcYDzDY%2BcYowdYSF1TWKB%2B1pvxuzXPh2%2FMUe9gNZ8EZhc9T%2FilBLhA0%3D&X-Amz-Signature=2b5126b1f457f38675e88a15af93c1816e936ca0449122abecd1959a0cc76aba&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2202_use_script.jpg%22)](https://www.youtube.com/watch?v=S4wzrwgM20Y)
 
 ### 1) 템플릿화한 명함 파일을 연다.
@@ -22,7 +22,8 @@ Adobe Illustrator Script for generating namecard automatically <br>
 
 스크립트가 정상적으로 실행되면 '정보가 성공적으로 입력되었습니다.'라는 얼럿이 뜨며, 'OK'를 누르면 정보 입력이 마무리됩니다. 
 
-입력되는 텍스트 길이에 따라 디자인이 터질 수 있으니, 스크립트 실행 이후에는 각 아트보드를 확인하면서 디자인 세부 조정이 필요한지 점검하는 것을 권장합니다. 이후 폰트 깨기/내보내기 등 주문을 위해 필요한 후작업을 하시면 됩니다. 
+입력되는 텍스트 길이에 따라 디자인이 터질 수 있으니, 스크립트 실행 이후에는 각 아트보드를 확인하는 것을 권장합니다. 
+이후 폰트 깨기/내보내기 등 주문을 위해 필요한 후작업을 하시면 됩니다. 
 
 
 <br>
