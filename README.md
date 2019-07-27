@@ -80,3 +80,8 @@ Adobe Illustrator Script for generating namecard automatically <br>
   `응용 프로그램 > Adobe Illustrator > Presets > en_US > Scripts`
 
 참고) 일러스트레이터가 어떤 언어 버전으로 설치되어 있느냐에 따라 중간 폴더 이름이 `en_US`가 아닌 `en_GB`, `ko_KR` 등일 수 있습니다.
+
+
+
+### 버그 제보 및 개선 문의
+designoh_b@naver.com
