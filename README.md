@@ -1,5 +1,5 @@
 # namecard_generator
-[![Video Label](https://giant.gfycat.com/DarlingCapitalFlicker.webm)](https://www.youtube.com/watch?v=hr9y4xU9VAs)
+[![Video Label](https://i.imgur.com/wgeHNe8.gif)](https://www.youtube.com/watch?v=hr9y4xU9VAs)
 
 Adobe Illustrator Script for generating business card automatically <br>
 **namecard_generator**는 어도비 일러스트레이터에서 사용할 수 있는 명함 생성 자동화 스크립트입니다.<br><br>
