@@ -85,3 +85,6 @@ Adobe Illustrator Script for generating business card automatically <br>
 ---
 ### 버그 제보 및 개선 문의
 designoh_b@naver.com
+
+douglascrockford 님의 json2.js 을 사용했습니다. (json2.js is owned by douglascrockford.)
+https://github.com/douglascrockford/JSON-js
