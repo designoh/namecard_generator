@@ -1,5 +1,5 @@
 # namecard_generator
-[![Video Label](https://i.imgur.com/wgeHNe8.gif)](https://www.youtube.com/watch?v=hr9y4xU9VAs)
+[![Video Label](image/namecard_generator_script_short.gif)](https://www.youtube.com/watch?v=hr9y4xU9VAs)
 
 Adobe Illustrator Script for generating business card automatically <br>
 **namecard_generator**는 어도비 일러스트레이터에서 사용할 수 있는 명함 생성 자동화 스크립트입니다.<br><br>
@@ -8,7 +8,7 @@ Adobe Illustrator Script for generating business card automatically <br>
 <br>
 
 # namecard_generator 사용 방법
-[![Video Label](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d3442fe4-4032-4c4c-9db9-aac8343feac0/02_use_script.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45LGXAICHX%2F20190731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190731T081449Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjECcaCXVzLXdlc3QtMiJHMEUCIBstJOC%2F4TvaXGNQe5rV9ewDR4yjTd2wR46wAWgO9O3ZAiEAtN8ZlygR%2FGEHbyT3ygosFlTXDOqfQ3zDM2K9Xqg7tS0q4wMIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyNzQ1NjcxNDkzNzAiDHaiLXKTdg45%2FGBBqiq3AyCMkaAPPaydhB%2BnAXoD1LaUf%2BwVbcC73hc1sRv4Zgky4IXF5l1ZsAmCUh9qLABCMbcRY5xn%2Bdi9c0Ptd%2FxKiUJJHj%2BV9LtgW6UUO80gVOOnUn0gC%2FQqium5TJWBlVNzdFM2p2ejQgCqKZvSYj22EootfQMUOOOXCjCOtP%2Bqs2gZyNUzIgLd7jG3%2BmcJmtJXOZ8yhTxM1bQv07eQFbbleiSPIfPS8pSE6aDxjxYnMAMG3AhbRIlrxY%2FqXuEJSxtuwPGP%2FYF4idbixvXZu2%2BE6ChCX6mxdw%2F1SkObstEhdflnriQI3ueNZSZJfJ7D3U9vkAces%2BUHVEiKXptfzEd6TKWrMjRErFGrnOccFeYbsInb5LFafxwp9Mp2YBpdHVwePxscIQZx5Tmwh5jqxJ5JwaMiN8R8cm9VPJM%2FwczfUQmo0T88uhBBn7Ton7Ab7iE8o%2Bk8z6VM%2FfvQh7%2B8Tj12DZn%2Bx03MOssoo3rOSyL2pR4re6WC%2B0wTL3%2BSGgMFoLS9XP0Q34vVfDJTA5ZmhzXXfp0Mz80QdrihkwUHkIMmmFCLSOM%2Ba7odHrNKZpNyCV%2Fa762tmz5e8Z0wmeWE6gU6tAFPTNJUNxY5w8V5kNEz518%2Fp0HvY4KmwAUkBmod6aFK37sPiYeiVS4D00hCoSc62gd%2FBz0o764rnxDTfx8CTaR%2BzYGIuVKsSBLZUqtsASg5pRLsnmnWmcchmiJLhPBr%2FmnwgsrgXzgZeRwpvAuzWkpO3v4Orb92yOeojNMGv1dYZ2YjSruqQDg%2F20l89TQ19RHtnEsTo5Ag3sGoQgU1%2FQUp7i135EAZcea45%2BIICbcad5V1KPc%3D&X-Amz-Signature=b68dd235da05eccd40e805b5112ccda282cdc574be95b95297403a1712f9dfbd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2202_use_script.jpg%22)](https://www.youtube.com/watch?v=S4wzrwgM20Y)
+[![Video Label](image/02_use_script.jpg)](https://www.youtube.com/watch?v=S4wzrwgM20Y)
 
 ### 1) 템플릿화한 명함 파일을 연다.
    스크립트 사용 전 간단한 사전 작업이 필요합니다. 아래 **스크립트 사용 전 필수 작업**을 참고해주세요.
@@ -34,7 +34,7 @@ Adobe Illustrator Script for generating business card automatically <br>
 이 작업은 **최초 1회**만 필요하며, 약 1~2분 정도 소요됩니다.
 <br>
 
-[![Video Label](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bf25afd7-25e1-4a1c-822c-591b638bff26/01_make_template.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45G4ISSV75%2F20190731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190731T081533Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjECcaCXVzLXdlc3QtMiJIMEYCIQDgbpq34ZIJDgWTqhsEeVK47bWEhnMvPhaeik0elcb%2FiQIhAIfsOEABy4D%2F%2FlA7cJh2K6Od3eWaLNtZt%2BEhcYe%2Bv6GcKuMDCKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMjc0NTY3MTQ5MzcwIgw2KxyutgNxMJV%2F1dwqtwMI%2F7Mr9fQTHTkANpsSfjKTvkMerBPf9RHDGo56%2BvyRTkW8JH8V4P36vPYngHodXPWN4X%2BOslEvc4A3v2FipaBmhNGi9d67bcbeePi27bVPb4M8zsIQj7xX05eEv%2FIYAlQN%2BdYYeuG5db4uJw5sgBz9O610ffbBrrpIIbE8SICwFiGfnxwzF0T1A6iChWwsYOYCLKt4cyksKDsdyAnkoZLtl9ceiRZpqoCyMwVLA4X0sq3cdCwlMmvVq8Yr1Hm3vsy3cb%2FMy5Aa1uycl8sr7ib0wEv%2FQIIc%2FQxt2VymP%2FQ0BQWZA5ZrQVTBlYP1kas6lXij9yS%2FXBKmpfL6uqvYPR9kL4o%2FCSqHvAAqEPdIcadGdg9lradIeWiAnjITkAEBKVJjvfH80rs8ez5OxrgcMNdsjWTAq7aAlwPMtl6GXHP%2BARQmtCMsbMc3TyEsy6ai8Qn56vsaj6hEzmXIEauDNIkJiqX9iMDab0aQtv2fZv6EXZzbtN8DU2C3l9q90OEBnLjqaG3G1jUM4bzjUTlH4jNLRMfnZTaHVF1eD8TbooRDfO3b0dwq%2BRLwtEWbGQvcuFHXyJQeR%2ByKMIz9hOoFOrMBEgF2HA291cHQtaBnsH0hsSWNcQEycjO%2BdoDGE9a9Pwy9fTNgx0eVS8Jk0pqfSMPJPQBSi2ZHrfdrvhrD2MYm66xD364USL21l8h%2FiyKveLtTIH%2F160BXBhStkDewYzLysSQYQdfl9NpqjtOdKWKRoYQ56QVIS066lPcHh1JbMvDD%2B7cM8IEOUCqz6iN6Y2xQZxlP0w4cnx5qqkMBu6QDOTEEy9hdXnTlk4%2BYnBSZylld1ws%3D&X-Amz-Signature=9af78a3455ecba28cdd1b0373e868bc5d474377e786025e2af3ca7ba7614720d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2201_make_template.jpg%22)](https://www.youtube.com/watch?v=mzEeMqVw8q8&t)
+[![Video Label](image/01_make_template.jpg)](https://www.youtube.com/watch?v=mzEeMqVw8q8&t)
 
 
 
